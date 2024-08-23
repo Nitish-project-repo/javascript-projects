@@ -18,7 +18,7 @@ let isAccountActive = true;
 // Now changing value for each variables decalred
 
 accountHolderEmail = "Tim@hi.com";
-accountPassword = "Stupa@123";     // TypeError: Assignment to constant variable. Thus, changing a const variable will give this error
+//accountPassword = "Stupa@123";     // TypeError: Assignment to constant variable. Thus, changing a const variable will give this error
 accountNumber = 5678;
 accountHolderCity = "Noida";
 isAccountActive = false;
