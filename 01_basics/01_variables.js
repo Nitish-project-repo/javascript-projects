@@ -24,3 +24,9 @@ accountHolderCity = "Noida";
 isAccountActive = false;
 
 console.table([accoutNumber,accountHolderEmail,accountPassword,accountHolderCity,isAccountActive]);
+
+
+/**
+ *  Prefer not to use var to declare variables , due to its scoping 
+ *  and functional scoping problem.
+ */
