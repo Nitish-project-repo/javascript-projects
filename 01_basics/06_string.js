@@ -43,7 +43,6 @@ console.log(`String has ${repoCount} repo count in JS.`);
         +++++++++++++  finds char/string
         > indexOf()
         > lastIndexOf()
-        > find()
 */
 
 let site_url = "https://ideal-doodle-q79rx6r7ggggh4w55.github.dev/";
