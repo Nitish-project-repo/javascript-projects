@@ -27,5 +27,11 @@ console.log(course_name);
       }
 
       You would encounter json formats in API calls when datas would be sent in
-      json formats.
+      json formats or in array of objects format.
+
+      [
+        {},
+        {},
+        {}
+      ]
 */
