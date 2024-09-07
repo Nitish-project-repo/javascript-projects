@@ -1,7 +1,7 @@
 /* 
     > There are 2 ways to decalre an object
         > Object literal : {} -> it has multiple instances
-        > Constructor : Object.create -> it has 1 instance
+        > Constructor : Object.create -> it has 1 instance ; one of its type
 
     > Object is also a collection of values represented in a {key:value} pairs separated with a comma(,).
     > Object elements are accessed using dot-notation(.) and square-brackets([]) ,
