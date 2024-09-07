@@ -17,3 +17,15 @@ const {name: course_name} = course;
 
 console.log(no_of_modules);
 console.log(course_name);
+
+
+/* JSON structure is similar to object structure:
+    > {
+        "name" : "JS Beginner to Advanced",
+        "price" : "Free",
+        "modules" : "30"
+      }
+
+      You would encounter json formats in API calls when datas would be sent in
+      json formats.
+*/
