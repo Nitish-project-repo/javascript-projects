@@ -12,11 +12,14 @@
     var does not have a scope system, it can be declared within the function and be printed outside.
 */
 
+// this is global scope
 
 if (true) {
     let num1 = 5;
     const age = 26;
     var hour = 4;
+
+    // this is block scope
 }
 
 // console.log(num1); // num1 not defined
