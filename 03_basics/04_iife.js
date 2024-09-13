@@ -11,4 +11,4 @@
 
 // These function are usually written in a separate file. 
 
-// (function_code)(arguments) ;
+// (function_code)() ;
