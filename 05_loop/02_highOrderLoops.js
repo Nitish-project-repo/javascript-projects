@@ -53,15 +53,54 @@ for(const [keys,values] of map){
 
 for(const num in numArray){
     // console.log(num); // 0,1,2,3,4,5 ; pos in the array
-    console.log(numArray[num]);
+    // console.log(numArray[num]);
 }
 
 
 for(const key in bill){
     // console.log(key); // netDemand,unitsCharged,lastDayPayment ; keys in the bill(object)
-    console.log(bill[key]);
+    // console.log(bill[key]);
 }
 
 for(const key in map){
-    console.log(key); // no response
+    // console.log(key); // no response
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+    forEach(callbackfn(item,index,arr))
+*/
+
+map.forEach((item)=> {
+    // console.log(item);
+    /* batman
+    superman
+    iceman */
+})
+
+
+numArray.forEach((item)=> {
+    // console.log(item);
+    /*
+        1
+        2
+        4
+        5
+        6
+        7
+    */
+})
+
+// bill.forEach((item) => {
+//     console.log(item); //typeerror: bill.forEach is not a function
+// })
