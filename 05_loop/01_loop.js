@@ -9,3 +9,9 @@ for (let i = 1; i <= 10; i++) {
         console.log(`${i} * ${j} = ${i*j}`);
     }
 }
+
+
+// while loop
+
+
+// do...while loop
