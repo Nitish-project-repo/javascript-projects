@@ -8,3 +8,4 @@
     Node represents the parent and child objects and its properties in the window object 
         which represents the stucture of the document of the website.
 */
+
