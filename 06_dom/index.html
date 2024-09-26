@@ -11,6 +11,18 @@
         background-color: #212121;
         color: #fff;
     }
+
+    .heading-change{
+        width: 193px;
+        height: auto;
+        background-color: rgb(203, 20, 20);
+        color: rgb(227, 227, 65);
+    }
+
+    .color{
+        background-color: rgb(31, 160, 235);
+        color: #fff;
+    }
 </style>
 <body class="bg-black">
     <div>
@@ -21,6 +33,27 @@
             <li>nav2</li>
             <li>nav3</li>
         </ul>
+        <button class="heading-change" onclick="changeHeading()">Change Heading</button>
+        <button class="heading-change color" onclick="changeHeadingColor()">Change Heading Color</button>
     </div>
 </body>
+
+<script>
+    const title = document.querySelector(".heading");
+    const button = document.querySelector(".heading-change");
+    
+    const changeHeading = () => {
+        title.innerText = "Heading changed";
+    }
+
+    const changeHeadingColor = () => {
+            let value1 = Math.floor(Math.random()*2);
+            let value2 = Math.floor(Math.random()*2);
+            let value3 = Math.floor(Math.random()*2);
+
+            title.style.backgroundColor = `rgb(${value1}${value2}${value3}, ${value2}${value1}${value3}, ${value3}${value2}${value1})`;
+    }
+
+    // consolbutton.onclick(changeHeading);
+</script>
 </html>
