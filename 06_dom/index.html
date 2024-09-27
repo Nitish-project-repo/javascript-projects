@@ -43,7 +43,11 @@
     const button = document.querySelector(".heading-change");
     
     const changeHeading = () => {
-        title.innerText = "Heading changed";
+        const arrayOfHeading = ["Heading 1", "Heading 2", "Heading 3", "Heading 4", "Heading 5"];
+        let c = Math.floor(Math.random()*5);
+        if(c <= arrayOfHeading.length){
+             title.innerText = arrayOfHeading[c];
+        }
     }
 
     const changeHeadingColor = () => {
