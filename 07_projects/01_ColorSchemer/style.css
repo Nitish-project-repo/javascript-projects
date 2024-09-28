@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #212121;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+.buttons{
+    width: 25vw;
+    height: auto;
+    margin : 25px auto;
+}
+
+.button {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #212121;
+}
+
+#grey{
+    background-color: grey;
+}
+
+#orange{
+    background-color: rgb(228, 171, 64);
+}
+
+#blue{
+    background-color: rgb(47, 173, 177);
+}
+
+#red{
+    background-color: rgb(192, 57, 57);
+}
+
