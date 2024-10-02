@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #212121;
+    color: #fff;
+}
+
+.container{
+    margin: 10vh auto;
+    width: 50vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 10vh;
+    background-color: #e19a36;
+    color: #241f1f;
+    font-size: 32px;
+}
