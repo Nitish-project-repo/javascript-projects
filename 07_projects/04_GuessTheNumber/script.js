@@ -4,8 +4,8 @@ const form = document.querySelector("form");
 const correctNumber = document.querySelector(".correctNumber");
 const guessArray = [];
 
-const number = Math.round(Math.random() * 10);
-console.log(number);
+const number = Math.round(Math.random() * 10 + 1);
+// console.log(number);
 
 form.addEventListener("submit", function (e) {
   e.preventDefault();
