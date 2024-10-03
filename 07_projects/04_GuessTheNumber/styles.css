@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212121;
+    color: #fff;
+    text-align: center;
+}
+
+.container { 
+    width: 45vw;
+    height: auto;
+    margin: 10vh auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #bd8c38;
+    color: #272323;
+}
+
+.correctNumber {
+    display: none;
+    margin: 20px auto 10px auto;
+}
+
+.startOver{
+    margin: 10px auto;
+}
