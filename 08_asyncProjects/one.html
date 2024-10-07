@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeout</title>
+</head>
+<body>
+    <h1>CHAI and CODE</h1>
+    <button id = "start">START</button>
+    <button id = "stop">STOP</button>
+
+    <!-- script starts -->
+     <script>
+        const startButton = document.querySelector("#start");
+        const stopButton = document.querySelector("#stop");
+
+        let timeoutStart ;
+        const startTimeout = function(str){
+            const date = new Date();
+            document.querySelector("h1").textContent = str + date.toLocaleTimeString();
+        }
+
+        // start timeout
+
+        startButton.addEventListener("click", () => {
+            timeoutStart = setTimeout(startTimeout, 2000,"Timeout start ");
+            console.log("Started");
+        })
+
+        // stop timeout
+        stopButton.addEventListener("click", () => {
+            // referencing the timeout to stop
+            clearTimeout(timeoutStart);
+            console.log("Stopped");
+        })
+     </script>
+    
+</body>
+</html>

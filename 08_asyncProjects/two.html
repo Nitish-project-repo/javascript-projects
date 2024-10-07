@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interval</title>
+</head>
+
+<body>
+    <h1>CHAI and CODE</h1>
+    <button id="start">START</button>
+    <button id="stop">STOP</button>
+
+    <!-- script starts -->
+    <script>
+        const startButton = document.querySelector("#start");
+        const stopButton = document.querySelector("#stop");
+
+        let startInterval;
+
+        // start interval
+
+        startButton.addEventListener("click", () => {
+            startInterval = setInterval(function (str) {
+                const date = new Date();
+                document.querySelector("h1").textContent = str + date.toLocaleTimeString();
+            }, 2000, "Interval starts: ");
+            console.log("Started");
+        })
+
+        // stop timeout
+        stopButton.addEventListener("click", () => {
+            // referencing the interval to stop
+            clearInterval(startInterval);
+            console.log("Stopped");
+        })
+    </script>
+
+</body>
+
+</html>
