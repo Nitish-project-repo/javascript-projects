@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Click Me</button>
+
+    <!-- script -->
+     <script>
+        class React{
+            constructor(){
+                this.library = "Express";
+
+                // requirement
+                // in the instance I am refering the button which on clicked will call handleClick()
+                // the button on getting clicked provides the button reference
+                // but I also want to keep the instances & properties of preceding object
+                // so , I am using bind(this) which binds the preceeding and current objects
+                document.querySelector("button").addEventListener("click",this.handleClick.bind(this));
+            }
+
+            handleClick(){
+                console.log("Clicked");
+                console.log(this);
+            }
+        }
+
+        const app = new React();
+     </script>
+</body>
+</html>
