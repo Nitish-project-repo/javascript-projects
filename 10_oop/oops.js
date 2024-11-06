@@ -33,7 +33,7 @@ function User(username, loggedInCount, loggedIn) {
     }
 
     // its implicitly returned
-    return this
+    // return this
 }
 
 
